@@ -1,0 +1,18 @@
+{
+  "name": "upwork_scrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scraper": "node scraper.ts",
+    "scraper:3": "for run in {1..3}; do node scraper.ts; done"
+  },
+  "author": "Anton",
+  "license": "ISC",
+  "dependencies": {
+    "csv-write-stream": "^2.0.0",
+    "playwright": "^1.41.1",
+    "prettier": "^3.2.4",
+    "random-useragent": "^0.5.0"
+  }
+}
